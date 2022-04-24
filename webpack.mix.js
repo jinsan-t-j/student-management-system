@@ -1,0 +1,1 @@
+require(`${__dirname}/resources/mix/web.mix.js`);
