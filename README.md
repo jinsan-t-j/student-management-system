@@ -1,8 +1,6 @@
-# About 
+# Student Management system
 
-Student Management system
-
-# Basic initialization 
+# Installation
 
 ```bash
 npm run clean
@@ -13,5 +11,3 @@ npm run clean
  php artisan migrate --seed
  php artisan serve
 ```
-
-# Basic initialization 
