@@ -27,6 +27,10 @@ mix
     /* Page JS */
     .js('resources/js/pages/tables_datatables.js', 'public/js/pages/tables_datatables.js')
 
+    /* Plugins */
+
+    .copy('resources/js/plugins', 'public/js/plugins')
+
     /* Teacher */
     .js('resources/js/teacher/index.js', 'public/js/teacher')
 
