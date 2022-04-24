@@ -26,7 +26,7 @@
                                 <select class="select2 browser-default" id="material-student_id" name="student_id" {{ count($students) < 1 ? 'disabled' : false }} data-placeholder="Please select a student">
                                     <option value=""></option>
                                     @foreach ($students as $student)
-                                        <option value="{{ $student->id }}" {{ old('student_id') === $student->id ? 'selected' : false }}> {{ $student->name }}
+                                        <option value="{{ $student->id }}" {{ old('student_id') == $student->id ? 'selected' : false }}> {{ $student->name }}
                                         </option>
                                     @endforeach
                                 </select>

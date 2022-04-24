@@ -44,19 +44,19 @@ class MarkController extends Controller
                     return ($mark->student) ? $mark->student->name : 'Does not exist';
                 })
                 ->addColumn('Maths', function ($mark) {
-                    return $mark->maths;
+                    return $mark->maths ? $mark->maths : '0';
                 })
                 ->addColumn('Science', function ($mark) {
-                    return $mark->science;
+                    return $mark->science ? $mark->science : '0';
                 })
                 ->addColumn('History', function ($mark) {
-                    return $mark->history;
+                    return $mark->history ? $mark->history : '0';
                 })
                 ->addColumn('Term', function ($mark) {
                     return $mark->term;
                 })
                 ->addColumn('Total Marks', function ($mark) {
-                    return $mark->total;
+                    return $mark->total ? $mark->total : '0';
                 })
                 ->addColumn('Created On', function ($mark) {
                     return $mark->created_at->format('M d, Y h:i A');
