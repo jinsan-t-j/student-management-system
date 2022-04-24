@@ -163,17 +163,17 @@
                                 </li>
                                 <li>
                                     <a href="{{ route('teachers.index') }}">
-                                        <i class="si si-globe"></i><span class="sidebar-mini-hide"> Teachers </span>
+                                        <i class="fa fa-graduation-cap"></i><span class="sidebar-mini-hide"> Teachers </span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="{{ route('students.index') }}">
-                                        <i class="si si-globe"></i><span class="sidebar-mini-hide"> Students </span>
+                                        <i class="fa fa-child"></i><span class="sidebar-mini-hide"> Students </span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="{{ route('marks.index') }}">
-                                        <i class="si si-globe"></i><span class="sidebar-mini-hide"> Marks </span>
+                                        <i class="si si si-note"></i><span class="sidebar-mini-hide"> Marks </span>
                                     </a>
                                 </li>
                             </ul>
